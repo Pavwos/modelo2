@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" href="snake-tattoo-png-transparent-quality-images-snake-png-clipart-11562976467xnlgv57ovv.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Age</title>
+</head>
+<body onload="carregar()">
+
+    <div class="cssload-container">
+        <div class="cssload-double-torus"></div>
+    </div>
+
+    <header>
+        <h1>Verificador de idade<h1/>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" name="txtano" id="txtano" min="1901" max="2022">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="radsex" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="radsex">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()" id="btn">
+            </p>
+        </div>
+        <div id="res">
+            Aqui aparece o resultado
+        </div>
+        <img src="jovemenino.png" alt="home" id="img">
+    </section>
+    <footer>
+        <p>&copy;pavwos</p>
+    </footer>
+    <script src="main.js">
+    </script>
+</body>
+</html>
