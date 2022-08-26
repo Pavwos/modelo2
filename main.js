@@ -29,9 +29,18 @@ function verificar(){
             else if(idade < 60){
                 foto.src = 'homem.png'
             }
-            else {
+            else if (idade < 90) {
                 foto.src = 'idoso.png'
             }
+            else if (idade < 200){
+                foto.src = 'dompedro.png'
+            }
+            else if (idade < 300){
+                foto.src = 'isaac.png'
+            }
+            else {
+                foto.src = 'mamaca.png'
+            } 
         }
         else if(fsex[1].checked){
             gen = 'mulher'
@@ -47,8 +56,17 @@ function verificar(){
             else if(idade < 60){
                 foto.src = 'mulher.png'
             }
-            else {
+            else if (idade < 90) {
                 foto.src = 'idosa.png'
+            }
+            else if (idade < 200){
+                foto.src = 'isabel.png'
+            }
+            else if (idade < 300){
+                foto.src = 'elizabeth.png'
+            }
+            else{
+                foto.src = 'mamaca.png'
             }
         }
         res.innerHTML = `Detectamos ${gen} com ${idade} anos`
