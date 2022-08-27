@@ -18,52 +18,52 @@ function verificar(){
         if(fsex[0].checked){
             gen = 'homem'
             if (idade >= 0 && idade < 10){
-                foto.src = 'bebemenino.png'
+                foto.src = './imagens/bebemenino.png'
             }
             else if (idade < 17){
-                foto.src = 'meninojovem.png'
+                foto.src = './imagens/meninojovem.png'
             }
             else if (idade < 30){
-                foto.src = 'jovemenino.png'
+                foto.src = './imagens/jovemenino.png'
             }
             else if(idade < 60){
-                foto.src = 'homem.png'
+                foto.src = './imagens/homem.png'
             }
             else if (idade < 90) {
-                foto.src = 'idoso.png'
+                foto.src = './imagens/idoso.png'
             }
             else if (idade < 200){
-                foto.src = 'dompedro.png'
+                foto.src = './imagens/dompedro.png'
             }
             else if (idade < 300){
-                foto.src = 'isaac.png'
+                foto.src = './imagens/isaac.png'
             }
             else {
-                foto.src = 'mamaca.png'
+                foto.src = './imagens/mamaca.png'
             } 
         }
         else if(fsex[1].checked){
             gen = 'mulher'
             if (idade >= 0 && idade < 10){
-                foto.src = 'bebemenina.png'
+                foto.src = './imagens/bebemenina.png'
             }
             else if (idade < 17){
-                foto.src = 'meninajovem.png'
+                foto.src = './imagens/meninajovem.png'
             }
             else if (idade < 30){
-                foto.src = 'jovemenina.png'
+                foto.src = './imagens/jovemenina.png'
             }
             else if(idade < 60){
-                foto.src = 'mulher.png'
+                foto.src = './imagens/mulher.png'
             }
             else if (idade < 90) {
-                foto.src = 'idosa.png'
+                foto.src = './imagens/idosa.png'
             }
             else if (idade < 200){
-                foto.src = 'isabel.png'
+                foto.src = './imagens/isabel.png'
             }
             else if (idade < 300){
-                foto.src = 'elizabeth.png'
+                foto.src = './imagens/elizabeth.png'
             }
             else{
                 foto.src = 'mamaca.png'

@@ -9,10 +9,11 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #a09ad6;
-    text-align: center;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
     font-size: 20px;
 }
 
@@ -58,11 +59,27 @@ div{
     align-items: center;
 }
 
-footer{
+footer, #more{
     color: #fff;
     text-align: center;
     font-style: italic;
     font-family: 'Inter', sans-serif;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands{
+    font-size: 50px;
+    color: #8681e8;
+    transition: 0.2s;
+}
+
+.fa-brands:hover{
+    opacity: 60%;
 }
 
 .cssload-container {
@@ -93,6 +110,12 @@ footer{
 }
 
 @media screen and (max-width: 440px){
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
     section{
         display: flex;
         flex-direction: column;
