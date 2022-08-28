@@ -70,12 +70,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    font-size: 40px;
 }
 
 .fa-brands{
-    font-size: 50px;
     color: #8681e8;
     transition: 0.2s;
+    margin: 1%;
 }
 
 .fa-brands:hover{
