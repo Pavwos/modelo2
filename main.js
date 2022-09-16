@@ -66,7 +66,7 @@ function verificar(){
                 foto.src = './imagens/elizabeth.png'
             }
             else{
-                foto.src = 'mamaca.png'
+                foto.src = './imagens/mamaca.png'
             }
         }
         res.innerHTML = `Detectamos ${gen} com ${idade} anos`
