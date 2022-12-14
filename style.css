@@ -20,9 +20,9 @@ header{
 section{
     color: #000;
     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     border-radius: 10px;
@@ -32,9 +32,6 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
 }
 
-#radsex{
-    cursor: pointer;
-}
 
 #btn{
     background-color: #a09ad6;
@@ -52,10 +49,11 @@ main{
     text-align: center;
 }
 
-div{
+#label{
     display: flex;
     justify-content: center;
 }
+
 
 #img{
     display: flex;
@@ -89,11 +87,13 @@ a{
     text-decoration: none;
     font-size: 35px;
 }
+.fa-solid{
+    margin: 15px;
+}
 
 .fa-clock{
     color: #8681e8;
     transition: 0.2s;
-    margin: 15px;
 }
 
 .fa-clock:hover{
@@ -103,7 +103,6 @@ a{
 .fa-user{
     color: #8681e8;
     transition: 0.2s;
-    margin: 15px;
 }
 
 .fa-user:hover{
@@ -113,10 +112,18 @@ a{
 .fa-arrow-up-9-1{
     color: #8681e8;
     transition: 0.2s;
-    margin: 15px;
 }
 
 .fa-arrow-up-9-1:hover{
+    opacity: 60%;
+}
+
+.fa-asterisk{
+    color: #8681e8;
+    transition: 0.2s;
+}
+
+.fa-asterisk:hover{
     opacity: 60%;
 }
 
@@ -147,7 +154,7 @@ a{
 		-moz-animation: cssload-spin 600ms infinite linear;
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 440px){   
     header{
         display: flex;
         justify-content: center;
@@ -157,7 +164,13 @@ a{
     section{
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 250px;
+    }
+
+    #dados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
